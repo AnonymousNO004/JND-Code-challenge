@@ -1,0 +1,33 @@
+#header{
+    width: 100%;
+    background-color: white;
+    position: relative;
+    top: 0%;
+}
+#TableLists{
+    border-collapse: collapse;
+}
+#TableLists thead tr th{
+    background-color: #03256C;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    border: 1px solid #A7A7A7;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#TableLists tbody tr td{
+    vertical-align: middle;
+    border: 1px solid #A7A7A7;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+#TableLists .lower-size{
+    font-size: 12px;
+}
+#TableLists td.highlight{
+    background-color: #DEE3F3;
+}
